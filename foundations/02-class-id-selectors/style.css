@@ -1,0 +1,22 @@
+.odd {
+    background-color: rgb(255, 192, 203);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+#two {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 255);
+    font-size: 32px;
+}
+
+#four {
+    background-color: rgb(159, 223, 159);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.odd.three {
+    font-size: 26px;
+}
