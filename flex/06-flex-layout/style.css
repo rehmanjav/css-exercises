@@ -32,15 +32,17 @@ input {
 .header {
   display: flex;
   padding: 5px;
-}
-
-.right-links {
-  margin-left: auto;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .footer {
   display: flex;
   padding: 5px;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .content {
@@ -52,4 +54,11 @@ input {
 
 ul {
   list-style-type: none;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
 }
